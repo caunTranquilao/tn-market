@@ -71,3 +71,45 @@ font-family: fonte-titulo,serif;
     top: 110px;
     left: 9%;
 }
+
+
+.container{
+    display: flex;            
+    justify-content: center;  
+    align-items: flex-start;  
+    gap: 90px;               
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 16px;
+    margin-right: 300px;
+    margin-top: 30px;
+}
+
+
+.card1,
+.card2,
+.card3,
+.card4,
+.card5 {
+    background-color: rgb(36, 35, 35);
+    box-shadow:  10px 5px 10px rgb(153, 0, 255);
+    height: 21rem;
+    width: 29rem;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+
+
+.card1:hover,
+.card2:hover,
+.card3:hover,
+.card4:hover,
+.card5:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+

@@ -1,13 +1,13 @@
 *{
-   
-      box-sizing: border-box;
+    
+    box-sizing: border-box;
 }
 
 body{
-     background-color: #121212;
-       margin: 0;
-       padding: 0;
-       line-height: 1.6;
+    background-color: #121212;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
 }
 
 @font-face {
@@ -26,6 +26,9 @@ body{
 }
 
 #titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 0;
 font-family: fonte-titulo,serif;
     color: white;
@@ -38,7 +41,10 @@ font-family: fonte-titulo,serif;
 
 
 #subtitulo{
- color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
     font-family: fonte-titulo, serif;
     text-align: center;
     font-size: clamp(1rem, 2.5vw, 1.5rem);  
@@ -46,7 +52,7 @@ font-family: fonte-titulo,serif;
     margin: 10px auto 0 auto;  
     max-width: 90%;  
     position: absolute;
-    left: 37%;
+    left: 41%;
 }
 
 .linha{

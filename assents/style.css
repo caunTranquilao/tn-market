@@ -7,7 +7,7 @@ body{
     margin: 0;
     padding: 0;
     line-height: 1.6;
-      background: radial-gradient(circle at top, #1a1a1a, #000);
+    background: radial-gradient(circle at top, #1a1a1a, #000);
 }
 
 @font-face {
@@ -30,7 +30,7 @@ body{
     align-items: center;
     justify-content: center;
     margin: 0;
-font-family: fonte-titulo,serif;
+    font-family: fonte-titulo,serif;
     color: white;
     text-align: center;
     font-size: 3rem;
@@ -66,6 +66,15 @@ font-family: fonte-titulo,serif;
     left: 7%;
 }
 
+.linha-cabeçalho{
+    background-color: white;
+    height: 1px;
+    width: 100%;
+    position: relative;
+    margin-top: 10px;
+    top: 95px;
+}
+
 #sobre-linha{
     color: white;
     position: relative;
@@ -73,7 +82,29 @@ font-family: fonte-titulo,serif;
     top: 110px;
     left: 9%;
 }
+
+#sobre-linha-fixo{
+    color: white;
+    position: relative;
+    margin:0;
+    top: 110px;
+    left: 9%;
+}
+
 .container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); 
+    grid-template-rows: repeat(2, auto);   
+    gap: 60px;
+    justify-items: center;    
+    align-items: start;     
+    width: 100%;              
+    margin: 30px auto 0 auto; 
+    padding: 40px 0;  
+    justify-content: center;    
+}
+
+.container-fixo {
     display: grid;
     grid-template-columns: repeat(5, 1fr); 
     grid-template-rows: repeat(2, auto);   
@@ -96,7 +127,17 @@ font-family: fonte-titulo,serif;
 .card7,
 .card8,
 .card9,
-.card10 {
+.card10,
+.card11,
+.card12,
+.card13,
+.card14,
+.card15,
+.card16,
+.card17,
+.card18,
+.card19,
+.card20 {
     align-items: center;
     justify-content: center;
     background-color: rgb(#575757);
@@ -119,7 +160,17 @@ font-family: fonte-titulo,serif;
 .card7:hover,
 .card8:hover,
 .card9:hover,
-.card10:hover {
+.card10:hover,
+.card11:hover,
+.card12:hover,
+.card13:hover,
+.card14:hover,
+.card15:hover,
+.card16:hover,
+.card17:hover,
+.card18:hover,
+.card19:hover,
+.card20:hover {
     transform: translateY(-5px);
     box-shadow: 0 0 20px rgb(255, 255, 255);
 }

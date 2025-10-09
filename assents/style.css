@@ -138,6 +138,7 @@ body{
 .card18,
 .card19,
 .card20 {
+    overflow: hidden;
     align-items: center;
     justify-content: center;
     background-color: rgb(#575757);
@@ -145,6 +146,7 @@ body{
     height: 21rem;
     width: 250px; 
     border-radius: 10px;
+    display: flex;
     flex: 0 0 auto; 
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     display: inline-block;
@@ -208,4 +210,46 @@ body{
     width: 3%;
     animation: flutuar 3s ease-in-out infinite;
     text-decoration: none;
+}
+
+
+.card1 img,
+.card2 img,
+.card3 img,
+.card4 img,
+.card5 img,
+.card6 img,
+.card7 img,
+.card8 img,
+.card9 img,
+.card10 img,
+.card11 img,
+.card12 img,
+.card13 img,
+.card14 img,
+.card15 img,
+.card16 img,
+.card17 img,
+.card18 img,
+.card19 img,
+.card20 img {
+    width: 100%;          
+    height: auto;        
+    display: block;
+    margin: 0 auto;      
+    border-radius: 8px;
+}
+
+.card11 label,
+.card12 label,
+.card13 label,
+.card14 label,
+.card15 label,
+.card16 label,
+.card17 label,
+.card18 label,
+.card19 label,
+.card20 label{
+    color: white;
+    font-family: fonte-titulo,serif;
 }

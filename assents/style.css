@@ -239,7 +239,16 @@ body{
     margin: 0 auto;      
     border-radius: 8px;
 }
-
+.card1 label,
+.card2 label,
+.card3 label,
+.card4 label,
+.card5 label,
+.card6 label,
+.card7 label,
+.card8 label,
+.card9 label,
+.card10 label,
 .card11 label,
 .card12 label,
 .card13 label,

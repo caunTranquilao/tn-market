@@ -209,7 +209,9 @@ body{
     width: 3%;
     animation: flutuar 3s ease-in-out infinite;
     text-decoration: none;
+    left: 20%;
 }
+
 
 
 .card1 img,

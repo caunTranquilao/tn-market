@@ -202,14 +202,14 @@ body{
 
 #insta{
     position: absolute;
-    top: 70px;
+    top: 60px;
     color: white;
     margin-left: 73%;
-    height: 3%;
-    width: 3%;
+    height: 6%;
+    width: 6%;
     animation: flutuar 3s ease-in-out infinite;
     text-decoration: none;
-    left: 20%;
+    left: 10%;
 }
 
 
@@ -286,3 +286,59 @@ body{
         gap: 15px;
     }
 }
+
+
+.menubtn{
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background-color: white;
+    color: white;
+    border: none;
+    padding: 10px 14px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    z-index: 1001;
+    transition: 0.3s;
+}
+
+
+.menubtn:hover{
+    background-color: black;
+}
+
+
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: -260px;
+    width: 150px;
+    height: 100%;
+    background-color: #222;
+    color: white;
+    padding-top: 60px;
+    box-shadow: 3px 0 10px black;
+    transition: 0.4s;
+    z-index: 1000;
+}
+
+
+.sidebar a {
+    display:block;
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0,3s;
+}
+
+
+.sidebar a:hover{
+    background-color: #4444;
+}
+
+.sidebar.active{
+    left: 0;
+}
+

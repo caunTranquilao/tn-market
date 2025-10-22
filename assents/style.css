@@ -292,7 +292,7 @@ body{
     position: fixed;
     top: 20px;
     left: 20px;
-    background-color: white;
+    background-color: rgb(73, 73, 73);
     color: white;
     border: none;
     padding: 10px 14px;

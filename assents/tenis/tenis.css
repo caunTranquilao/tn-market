@@ -7,7 +7,7 @@ body{
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    background: radial-gradient(circle at top, #1a1a1a, #000);
+    background-color: #0f0f1a;
 }
 
 @font-face {
@@ -37,7 +37,8 @@ body{
     position: relative;
     margin-top: 30px;
     animation: flutuar 3s ease-in-out infinite;
-    text-shadow: 0 0 10px #ffffff;
+   
+    text-shadow: 0 0 15px rgba(106, 90, 205, 0.6);
 }
 
 
@@ -54,7 +55,7 @@ body{
     max-width: 90%;  
     position: absolute;
     left: 41%;
-    text-shadow: 0 0 10px #ffffff;
+    text-shadow: 0 0 15px rgba(106, 90, 205, 0.6);
 }
 
 .linha{
@@ -140,8 +141,8 @@ body{
     overflow: hidden;
     align-items: center;
     justify-content: center;
-    background-color: rgb(#575757);
-    box-shadow: 10px 5px 10px rgb(255, 255, 255);
+    background-color: #1e1e2e;  
+    box-shadow: 10px 5px 10px #04020f;
     height: 21rem;
     width: 250px; 
     border-radius: 10px;
@@ -173,7 +174,8 @@ body{
 .card19:hover,
 .card20:hover {
     transform: translateY(-5px);
-    box-shadow: 0 0 20px rgb(255, 255, 255);
+    box-shadow: 0 6px 20px  #202030;
+    backdrop-filter: blur(5px)
 }
 
 
@@ -292,7 +294,7 @@ body{
     position: fixed;
     top: 20px;
     left: 20px;
-    background-color:  rgb(73, 73, 73);
+    background-color: #262150;
     color: white;
     border: none;
     padding: 10px 14px;
@@ -305,7 +307,7 @@ body{
 
 
 .menubtn:hover{
-    background-color: black;
+    background-color: #171430;
 }
 
 
@@ -315,10 +317,10 @@ body{
     left: -260px;
     width: 150px;
     height: 100%;
-    background-color: #222;
+    background-color: #0e1125;
     color: white;
     padding-top: 60px;
-    box-shadow: 3px 0 10px black;
+    box-shadow: 3px 0 10px rgba(0,0,0,0.3);
     transition: 0.4s;
     z-index: 1000;
 }
@@ -335,10 +337,9 @@ body{
 
 
 .sidebar a:hover{
-    background-color: #4444;
+    background-color: #141125;
 }
 
 .sidebar.active{
     left: 0;
 }
-

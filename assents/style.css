@@ -105,17 +105,6 @@ body{
     justify-content: center;    
 }
 
-.container-fixo {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 60px;
-    justify-items: center;
-    align-items: start;
-    width: 100%;
-    margin: 30px auto 0 auto;
-    padding: 40px 0;
-    justify-content: center;  
-}
 
 
 .card1,

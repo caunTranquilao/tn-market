@@ -350,12 +350,14 @@ body{
 
 
 .mensagem.show{
+    color: white;
     opacity: 1;
     transform: translate(-50%, 0);
 }
 
 
 .welcome-overlay {
+    color: white;
     position: fixed;
     top: 0;
     left: 0;
@@ -375,6 +377,7 @@ body{
 
 
 .welcome-text {
+    color: white;
     font-size: 1.5em;
     text-align: center;
     animation: fadeIn 1s ease;
@@ -390,4 +393,10 @@ body{
 .hidden {
     opacity: 0;
     pointer-events: none;
+}
+
+
+
+#rodape{
+    color: white;
 }

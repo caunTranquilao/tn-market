@@ -332,3 +332,8 @@ body{
 .sidebar.active{
     left: 0;
 }
+
+
+#rodape{
+    color: white;
+}

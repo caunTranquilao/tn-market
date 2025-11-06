@@ -264,6 +264,12 @@ body{
 .card20 label{
     color: white;
     font-family: fonte-titulo,serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+    font-size: 100%;
+    margin-top: 10px;
 }
 
 
